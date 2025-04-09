@@ -1,0 +1,17 @@
+# Core Trading Libraries
+backtrader==1.9.76.123
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.7.1  # For backtrader plotting
+
+# Interactive Brokers API
+ib_insync==0.9.85
+
+# Data Acquisition
+yfinance==0.2.28  # Yahoo Finance fallback
+requests==2.31.0  # For API data fetching
+python-dotenv==1.0.0  # For API keys
+
+# Risk Management
+scipy==1.10.1  # For statistical calculations
+statsmodels==0.14.0  # For volatility metrics
